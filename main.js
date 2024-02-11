@@ -36,9 +36,9 @@ function play() {
   chanceArea.textContent=`You get : ${chances} chances left`
   console.log("chance", chances)
   if (userValue < computerNum) {
-    resultArea.textContent = "My number is greater than  6";
+    resultArea.textContent = "My number is greater than" + userValue;
   } else if (userValue > computerNum) {
-    resultArea.textContent = "My number is less than 90";
+    resultArea.textContent = "My number is less than" + userValue;
   } else {
     resultArea.textContent = "Well Done!";
     gameOver = true
