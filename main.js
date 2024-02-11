@@ -61,7 +61,7 @@ function reset() {
 userInput.value = ""
 pickRandomNum();
 
-resultArea.textContent = "결과값이 여기 나옵니다."
+resultArea.textContent = ""
 }
 
 pickRandomNum();
