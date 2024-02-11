@@ -1,0 +1,17 @@
+.grey{
+  text-align: center;
+}
+.img-size{
+  width: 200px
+  height:200px
+}
+
+.margin-space{
+  margin-top:20px;
+}
+
+.container {
+  border: 30px solid white;
+  border-radius: 10px;
+  text-align: center;
+}
